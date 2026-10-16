@@ -1,0 +1,25 @@
+---
+title: "Other Tools"
+description: "Additional open-source tools and pipelines developed by Breeding Insight"
+listing:
+  contents: "othertools/*.qmd"
+  type: grid
+  sort: "title asc"
+  categories: true
+  sort-ui: [title]
+  filter-ui: true
+  fields: [image, title, description, categories]
+  grid-columns: 3
+  page-size: 12
+toc: false
+---
+
+In addition to R-based tools for handling breeding and genomic data across a wide range of species,
+Breeding Insight has created various one-off tools for specialized applications.
+
+Use the filters to narrow the catalog by task or technology.
+
+::: {.listing-actions}
+[See learning materials →](learn.qmd){.btn-bi-secondary}
+[Breeding Insight GitHub](https://github.com/Breeding-Insight){.btn-bi-secondary}
+:::

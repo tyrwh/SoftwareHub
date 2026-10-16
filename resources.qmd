@@ -4,7 +4,7 @@ description: "Standards, support links, reproducibility guidance, citations, and
 toc: true
 ---
 
-Use this page when you need a primary specification, a support route, or a checklist to make an analysis easier to reproduce. For explanations and worked examples, use the [Learn library](learn.qmd). For installation and package documentation, start with [Software](software.qmd).
+Use this page when you need a primary specification, a support route, or a checklist to make an analysis easier to reproduce. For explanations and worked examples, use the [Learn library](learn.qmd). For installation and package documentation, start with [Software](rpackages.qmd).
 
 ::: {.callout-note}
 ## Breeding Insight Learning Hub
@@ -105,7 +105,7 @@ The [BIGapp workshop dataset guide](workshops/bigapp/dataset-guide.qmd) provides
 - [Phenotypes and sample metadata CSV](workshops/bigapp/data/atlantic_giant_pumpkin_diversity_phenotypes.csv){download="atlantic_giant_pumpkin_diversity_phenotypes.csv"}
 - [SNP-information CSV](workshops/bigapp/data/atlantic_giant_pumpkin_diversity_snp_info.csv){download="atlantic_giant_pumpkin_diversity_snp_info.csv"}
 
-For package-specific example data, use the examples distributed with that package or linked from its [software page](software.qmd). This keeps example files synchronized with the code that reads them.
+For package-specific example data, use the examples distributed with that package or linked from its [software page](rpackages.qmd). This keeps example files synchronized with the code that reads them.
 
 ## For Contributors
 

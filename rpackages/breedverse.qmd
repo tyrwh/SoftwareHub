@@ -1,0 +1,32 @@
+---
+title: "Breedverse"
+description: "A modular application hub to install + run multiple BI tools."
+categories: [R Shiny, Genomics, GWAS, Genomic selection, Visualization]
+image: ../assets/logos/software-breedverse.png
+image-alt: "Breedverse hexagonal logo."
+draft: true
+---
+
+::: {.software-header}
+::: {}
+BIGapp provides a graphical interface for common genomic analyses, including workflows for population structure, association analysis, genomic prediction, and related tasks.
+
+<div class="meta-row"><span class="pill">R Shiny</span><span class="pill">Interactive</span><span class="pill">Diploid + polyploid</span></div>
+:::
+<img class="software-logo" src="../assets/logos/software-bigapp.png" alt="BIGapp logo">
+:::
+
+## Start here
+
+[Source code](https://github.com/Breeding-Insight/BIGapp){.btn-bi-primary}
+[Breeding Insight software page](https://breedinginsight.org/software/bigapp/){.btn-bi-secondary}
+
+## Good fit for
+
+- Users who prefer an interactive graphical workflow
+- Teaching genomic analysis concepts without requiring command-line expertise
+- Analyses supported by the BIGr/BIGapp ecosystem
+
+## Related learning
+
+- [Choose a genomic analysis path](../learn/genomics-path.qmd)

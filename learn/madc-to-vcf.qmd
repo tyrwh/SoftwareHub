@@ -33,7 +33,7 @@ execute:
 
 Convert a HapApp-processed DArT MADC file into a **biallelic read-count VCF**, call reference-allele dosage with [Updog](https://dcgerard.github.io/updog/), convert those calls into a genotype-called VCF with BIGr, and apply documented quality filters.
 
-This workflow supports both diploid and polyploid organisms. You must supply the correct ploidy and adjust the depth requirements, model evaluation, and filter interpretation to the number and separability of the expected dosage classes. If ploidy is uncertain, use the [Qploidy2 tutorial](https://breeding-insight.github.io/Qploidy2/Qploidy_alfalfa_tutorial.html) and [Qploidy2 software page](../software/qploidy2.qmd) before calling genotypes.
+This workflow supports both diploid and polyploid organisms. You must supply the correct ploidy and adjust the depth requirements, model evaluation, and filter interpretation to the number and separability of the expected dosage classes. If ploidy is uncertain, use the [Qploidy2 tutorial](https://breeding-insight.github.io/Qploidy2/Qploidy_alfalfa_tutorial.html) and [Qploidy2 software page](../rpackages/qploidy2.qmd) before calling genotypes.
 
 By the end, you will have validated:
 

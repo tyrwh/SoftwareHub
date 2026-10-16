@@ -3,7 +3,7 @@ title: "BIGapp 1.2.0"
 date: 2025-03-27
 description: "Feature updates and bug fixes:"
 categories: [BIGapp]
-image: ../assets/software-bigapp.png
+image: ../assets/logos/software-bigapp.png
 image-alt: "BIGapp logo"
 toc: false
 ---
@@ -16,4 +16,4 @@ Feature updates and bug fixes:
 - Fixed a UI bug when extracting target SNPs from MADC file
 - Added new user warnings to PCA tab
 
-[Release on GitHub](https://github.com/Breeding-Insight/BIGapp/releases/tag/v1.2.0) · [About BIGapp](../software/bigapp.qmd)
+[Release on GitHub](https://github.com/Breeding-Insight/BIGapp/releases/tag/v1.2.0) · [About BIGapp](../rpackages/bigapp.qmd)

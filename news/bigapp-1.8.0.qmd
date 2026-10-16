@@ -3,7 +3,7 @@ title: "BIGapp 1.8.0"
 date: 2026-08-04
 description: "updated minor edits"
 categories: [BIGapp]
-image: ../assets/software-bigapp.png
+image: ../assets/logos/software-bigapp.png
 image-alt: "BIGapp logo"
 toc: false
 ---
@@ -18,4 +18,4 @@ toc: false
 
 **Full Changelog**: https://github.com/Breeding-Insight/BIGapp/compare/v1.6.0...v1.8.0
 
-[Release on GitHub](https://github.com/Breeding-Insight/BIGapp/releases/tag/v1.8.0) · [About BIGapp](../software/bigapp.qmd)
+[Release on GitHub](https://github.com/Breeding-Insight/BIGapp/releases/tag/v1.8.0) · [About BIGapp](../rpackages/bigapp.qmd)

@@ -27,10 +27,10 @@ The site is written to `_site/`.
 
 ## Add software
 
-1. Copy an existing file in `software/`.
+1. Copy an existing file in `rpackages/`.
 2. Update `title`, `description`, `categories`, and `image` in YAML.
 3. Add installation and canonical links.
-4. Render. The `software.qmd` listing updates automatically.
+4. Render. The `rpackages.qmd` listing updates automatically.
 
 ## Add learning material
 

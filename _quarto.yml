@@ -3,7 +3,8 @@ project:
   output-dir: _site
   render:
     - "*.qmd"
-    - "software/*.qmd"
+    - "rpackages/*.qmd"
+    - "othertools/*.qmd"
     - "learn/*.qmd"
     - "news/*.qmd"
     - "workshops/**/*.qmd"
@@ -16,7 +17,7 @@ website:
   title: "Breeding Insight Software"
   site-url: "https://breeding-insight.github.io/SoftwareHub/"
   description: "Software, tutorials, workshops, and documentation from Breeding Insight."
-  favicon: assets/bi-mark.png
+  favicon: assets/logos/bi-mark.png
   open-graph: true
   page-navigation: true
   back-to-top-navigation: true
@@ -26,11 +27,13 @@ website:
     limit: 30
   navbar:
     pinned: true
-    logo: assets/breeding-insight.png
+    logo: assets/logos/breeding-insight.png
     logo-alt: "Breeding Insight"
     left:
-      - text: Software
-        href: software.qmd
+      - text: R Packages
+        href: rpackages.qmd
+      - text: Other Tools
+        href: othertools.qmd
       - text: Learn
         href: learn.qmd
       - text: Workshops

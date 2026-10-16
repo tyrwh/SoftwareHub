@@ -3,7 +3,7 @@ title: "Familia 1.0.0"
 date: 2026-06-02
 description: "Josue adds"
 categories: [Familia]
-image: ../assets/software-familia.png
+image: ../assets/logos/software-familia.png
 image-alt: "Familia logo"
 toc: false
 ---
@@ -19,4 +19,4 @@ toc: false
 
 **Full Changelog**: https://github.com/Breeding-Insight/familia/compare/v0.1.0...v1.0.0
 
-[Release on GitHub](https://github.com/Breeding-Insight/familia/releases/tag/v1.0.0) · [About Familia](../software/familia.qmd)
+[Release on GitHub](https://github.com/Breeding-Insight/familia/releases/tag/v1.0.0) · [About Familia](../rpackages/familia.qmd)

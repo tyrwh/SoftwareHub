@@ -3,7 +3,7 @@ title: "Familia 2.0.0"
 date: 2026-08-24
 description: "Added a Ploidy selector to the Find Parentage and Validate Pedigree tabs, passed through to 'BIGpopA' so pedigree validation and parentage assignment now support any ploidy."
 categories: [Familia]
-image: ../assets/software-familia.png
+image: ../assets/logos/software-familia.png
 image-alt: "Familia logo"
 toc: false
 ---
@@ -16,4 +16,4 @@ toc: false
   and to generalize genotype dosage coding to 0, 1, ..., ploidy.
 * Requires 'BIGpopA' (>= 2.0.0).
 
-[Release on GitHub](https://github.com/Breeding-Insight/familia/releases/tag/v2.0.0) · [About Familia](../software/familia.qmd)
+[Release on GitHub](https://github.com/Breeding-Insight/familia/releases/tag/v2.0.0) · [About Familia](../rpackages/familia.qmd)

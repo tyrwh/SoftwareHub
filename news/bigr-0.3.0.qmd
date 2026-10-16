@@ -3,7 +3,7 @@ title: "BIGr 0.3.0"
 date: 2024-06-25
 description: "Updated documentation"
 categories: [BIGr]
-image: ../assets/software-bigr.png
+image: ../assets/logos/software-bigr.png
 image-alt: "BIGr logo"
 toc: false
 ---
@@ -12,4 +12,4 @@ toc: false
 - Updated citation information
 - Added filter.VCF function to filter VCF files or vcfR objects
 
-[Release on GitHub](https://github.com/Breeding-Insight/BIGr/releases/tag/v0.3.0) · [About BIGr](../software/bigr.qmd)
+[Release on GitHub](https://github.com/Breeding-Insight/BIGr/releases/tag/v0.3.0) · [About BIGr](../rpackages/bigr.qmd)

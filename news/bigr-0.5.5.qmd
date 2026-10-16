@@ -3,7 +3,7 @@ title: "BIGr 0.5.5"
 date: 2025-05-19
 description: "Updated DESCRIPTION"
 categories: [BIGr]
-image: ../assets/software-bigr.png
+image: ../assets/logos/software-bigr.png
 image-alt: "BIGr logo"
 toc: false
 ---
@@ -13,4 +13,4 @@ toc: false
 - Added optional seed for check_ped
 - Added verbose option
 
-[Release on GitHub](https://github.com/Breeding-Insight/BIGr/releases/tag/v0.5.5) · [About BIGr](../software/bigr.qmd)
+[Release on GitHub](https://github.com/Breeding-Insight/BIGr/releases/tag/v0.5.5) · [About BIGr](../rpackages/bigr.qmd)

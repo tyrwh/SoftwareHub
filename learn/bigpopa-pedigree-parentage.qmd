@@ -7,7 +7,7 @@ description: "Use a worked SNP dataset to clean a pedigree, validate recorded pa
 categories:
   - Pedigree & Parentage
   - Genotype Data
-image: ../assets/software-bigpopa.png
+image: ../assets/logos/software-bigpopa.png
 image-alt: "BIGpopA hexagonal logo with pedigree symbols and a stacked composition chart."
 order: 81
 learning-type: Tutorial

@@ -199,7 +199,7 @@ def write_entry(repo, slug, logo, release, news_sections):
         f"date: {published}",
         f"description: {yaml_quote(description)}",
         f"categories: [{repo}]",
-        f"image: ../assets/{logo}",
+        f"image: ../assets/logos/{logo}",
         f"image-alt: {yaml_quote(repo + ' logo')}",
         "toc: false",
         "---",
@@ -211,7 +211,7 @@ def write_entry(repo, slug, logo, release, news_sections):
     parts.append("")
     parts.append(
         f"[Release on GitHub]({release['html_url']}) · "
-        f"[About {repo}](../software/{slug}.qmd)"
+        f"[About {repo}](../rpackages/{slug}.qmd)"
     )
     parts.append("")
 

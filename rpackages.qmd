@@ -1,0 +1,33 @@
+---
+title: "R Packages"
+# description: "Open-source R packages developed by Breeding Insight"
+listing:
+  contents: "rpackages/*.qmd"
+  type: grid
+  sort: "title asc"
+  categories: true
+  sort-ui: [title]
+  filter-ui: true
+  fields: [image, title, description, categories]
+  grid-columns: 3
+  page-size: 12
+toc: false
+---
+
+Breeding Insight has developed several open-source R packages to handle breeding and genomics data
+in both diploid in polyploid species.
+
+These packages can help with processing genotype files, performing GWAS/GS,
+optimizing mating schemes, estimating ploidy and copy number variation,
+validating parentage, visualizing results, and much more.
+
+Some packages can be installed through [Breedverse](https://github.com/Breeding-Insight/Breedverse),
+a modular point-and-click app that lets users install tools and run genomic analyses without needing
+to be proficient in R.
+
+Use the filters at right to narrow the catalog by task or technology.
+
+::: {.listing-actions}
+[See learning materials →](learn.qmd){.btn-bi-secondary}
+[Breeding Insight GitHub](https://github.com/Breeding-Insight){.btn-bi-secondary}
+:::

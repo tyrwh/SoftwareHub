@@ -74,6 +74,35 @@ body:has(.hero) #title-block-header {
   grid-row: 1 / span 2;
 }
 
+/* Software pages: show the description above the category tags. Quarto nests
+   the categories inside .quarto-title but renders the description as its
+   sibling, so flatten .quarto-title and reorder the header as a flex column. */
+.software-page #title-block-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.software-page #title-block-header .quarto-title {
+  display: contents;
+}
+
+.software-page #title-block-header h1.title {
+  order: 1;
+}
+
+.software-page #title-block-header > div:has(> .description) {
+  order: 2;
+}
+
+.software-page #title-block-header .quarto-categories {
+  order: 3;
+  margin-top: .75rem;
+}
+
+.software-page #title-block-header .quarto-title-meta {
+  order: 4;
+}
+
 @media (max-width: 575px) {
   .learning-material-page .quarto-title-meta {
     grid-template-columns: 1fr;
@@ -126,7 +155,7 @@ body:has(.hero) #title-block-header {
   height: 2rem;
   width: auto;
   aspect-ratio: 756 / 745;
-  background: url("assets/bi-mark.png") center / contain no-repeat;
+  background: url("assets/logos/bi-mark.png") center / contain no-repeat;
 }
 
 .footer-identity-text {
@@ -190,18 +219,18 @@ $footer-logo-height: 2.25rem;
 
 .footer-logo-usda {
   aspect-ratio: 613 / 419;
-  background-image: url("assets/funder-usda.png");
+  background-image: url("assets/logos/funder-usda.png");
 }
 
 .footer-logo-ifas {
   aspect-ratio: 480 / 159;
-  background-image: url("assets/funder-uf-ifas.png");
+  background-image: url("assets/logos/funder-uf-ifas.png");
 }
 
 .footer-logo-cornell {
   height: $footer-logo-height * 1.1;
   aspect-ratio: 1;
-  background-image: url("assets/funder-cornell.png");
+  background-image: url("assets/logos/funder-cornell.png");
 }
 
 @media (max-width: 991px) {
@@ -349,6 +378,32 @@ main.content h3 {
   color: #fff !important;
 }
 
+/* Larger call-to-action for tools with a hosted web app. */
+.btn-bi-launcher {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  min-height: 3.25rem;
+  padding: .8rem 1.5rem;
+  border-radius: .35rem;
+  background: $bi-teal-dark;
+  color: #fff !important;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color .15s ease;
+}
+
+.btn-bi-launcher::after {
+  content: "↗";
+  font-size: 1rem;
+}
+
+.btn-bi-launcher:hover {
+  background-color: #204f5d;
+  color: #fff !important;
+}
+
 .section-heading {
   margin-top: 2.75rem;
   font-size: inherit;
@@ -485,6 +540,17 @@ h2.section-heading {
   color: $bi-teal-dark;
   font-size: .78rem;
   font-weight: 700;
+}
+
+/* Category tags (title blocks and listing cards) use the pill colors. */
+.quarto-title .quarto-categories .quarto-category,
+.quarto-grid-item .listing-categories .listing-category,
+div.quarto-post .listing-categories .listing-category {
+  border-color: $bi-mist;
+  background: $bi-mist;
+  color: $bi-teal-dark;
+  font-weight: 700;
+  opacity: 1;
 }
 
 .bi-callout {

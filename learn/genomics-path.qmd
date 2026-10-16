@@ -114,37 +114,37 @@ flowchart TB
 ::: {.concept-decision}
 #### Prepare or inspect marker data
 
-Start with [BIGr](../software/bigr.qmd) when you want a scripted R workflow that can be saved, reviewed, and adapted. Start with [BIGapp](../software/bigapp.qmd) when the supported analysis is available through its graphical interface and you prefer to work without command-line inputs.
+Start with [BIGr](../rpackages/bigr.qmd) when you want a scripted R workflow that can be saved, reviewed, and adapted. Start with [BIGapp](../rpackages/bigapp.qmd) when the supported analysis is available through its graphical interface and you prefer to work without command-line inputs.
 :::
 
 ::: {.concept-decision}
 #### Estimate ploidy or copy number
 
-Use [Qploidy2](../software/qploidy2.qmd) when the question concerns individual ploidy, aneuploidy, or large-scale copy-number variation. Its workflow uses marker information such as allele ratios and depth or intensity across the genome.
+Use [Qploidy2](../rpackages/qploidy2.qmd) when the question concerns individual ploidy, aneuploidy, or large-scale copy-number variation. Its workflow uses marker information such as allele ratios and depth or intensity across the genome.
 :::
 
 ::: {.concept-decision}
 #### Explore structure or map a trait
 
-Use [BIGr](../software/bigr.qmd) for a scripted workflow or [BIGapp](../software/bigapp.qmd) for its graphical PCA, DAPC, GWASpoly, and genomic-prediction workflows. Phenotypes and marker positions are needed only for analyses that use them, but genotype quality and sample identity matter throughout.
+Use [BIGr](../rpackages/bigr.qmd) for a scripted workflow or [BIGapp](../rpackages/bigapp.qmd) for its graphical PCA, DAPC, GWASpoly, and genomic-prediction workflows. Phenotypes and marker positions are needed only for analyses that use them, but genotype quality and sample identity matter throughout.
 :::
 
 ::: {.concept-decision}
 #### Check pedigrees or assign parents
 
-Use [BIGpopA](../software/bigpopa.qmd) when you want an R workflow for pedigree quality control, marker-based parentage assignment, or breed or line composition. Use [Familia](../software/familia.qmd) when you want a graphical interface to BIGpopA workflows and ancestry analyses.
+Use [BIGpopA](../rpackages/bigpopa.qmd) when you want an R workflow for pedigree quality control, marker-based parentage assignment, or breed or line composition. Use [Familia](../rpackages/familia.qmd) when you want a graphical interface to BIGpopA workflows and ancestry analyses.
 :::
 
 ::: {.concept-decision}
 #### Assess ancestry
 
-Use [Familia](../software/familia.qmd) for interactive supervised breed or line composition and unsupervised ancestry inference. Use [BIGpopA](../software/bigpopa.qmd) when the supervised composition workflow needs to be run and recorded in R.
+Use [Familia](../rpackages/familia.qmd) for interactive supervised breed or line composition and unsupervised ancestry inference. Use [BIGpopA](../rpackages/bigpopa.qmd) when the supervised composition workflow needs to be run and recorded in R.
 :::
 
 ::: {.concept-decision}
 #### Choose contributions and crosses
 
-Use [AlloMate](../software/allomate.qmd) after the candidate list, pedigree, and estimated breeding values are ready. It combines pedigree-based kinship, trait weights, contribution constraints, and mating rules to support selection and crossing decisions.
+Use [AlloMate](../rpackages/allomate.qmd) after the candidate list, pedigree, and estimated breeding values are ready. It combines pedigree-based kinship, trait weights, contribution constraints, and mating rules to support selection and crossing decisions.
 :::
 :::
 
@@ -153,12 +153,12 @@ Use [AlloMate](../software/allomate.qmd) after the candidate list, pedigree, and
 ::: {.table-responsive}
 | Immediate question | Have ready | Start with | What it contributes |
 |---|---|---|---|
-| How do I process or inspect genotype data? | Read counts, VCF, or another supported genotype input; sample IDs; expected ploidy | [BIGr](../software/bigr.qmd) or [BIGapp](../software/bigapp.qmd) | Scripted or graphical genotype processing, quality summaries, and supported downstream analyses |
-| Are ploidy or large chromosome-scale changes uncertain? | Genotyping-platform allele ratios plus depth or intensity and marker positions appropriate for the workflow | [Qploidy2](../software/qploidy2.qmd) | Ploidy, aneuploidy, and large-scale copy-number estimates |
-| Are samples structured, associated with a trait, or useful for prediction? | Quality-controlled genotypes; phenotypes and marker positions when required | [BIGr](../software/bigr.qmd) or [BIGapp](../software/bigapp.qmd) | Population summaries, trait-association evidence, or validated genomic predictions supported by the selected workflow |
-| Does the pedigree agree with marker data, or who are the likely parents? | Pedigree or candidate-parent pool plus compatible SNP genotypes | [BIGpopA](../software/bigpopa.qmd) or [Familia](../software/familia.qmd) | Pedigree checks, parentage assignments, and related diagnostics |
-| What is the genomic ancestry or breed or line composition? | Target genotypes and, for supervised analysis, suitable reference populations | [BIGpopA](../software/bigpopa.qmd) or [Familia](../software/familia.qmd) | Supervised composition estimates or, in Familia, unsupervised ancestry inference |
-| Which candidates should contribute, and how should they be mated? | Candidate IDs, pedigree, required candidate metadata, and estimated breeding values | [AlloMate](../software/allomate.qmd) | Kinship summaries, weighted selection information, contribution results, and mating plans |
+| How do I process or inspect genotype data? | Read counts, VCF, or another supported genotype input; sample IDs; expected ploidy | [BIGr](../rpackages/bigr.qmd) or [BIGapp](../rpackages/bigapp.qmd) | Scripted or graphical genotype processing, quality summaries, and supported downstream analyses |
+| Are ploidy or large chromosome-scale changes uncertain? | Genotyping-platform allele ratios plus depth or intensity and marker positions appropriate for the workflow | [Qploidy2](../rpackages/qploidy2.qmd) | Ploidy, aneuploidy, and large-scale copy-number estimates |
+| Are samples structured, associated with a trait, or useful for prediction? | Quality-controlled genotypes; phenotypes and marker positions when required | [BIGr](../rpackages/bigr.qmd) or [BIGapp](../rpackages/bigapp.qmd) | Population summaries, trait-association evidence, or validated genomic predictions supported by the selected workflow |
+| Does the pedigree agree with marker data, or who are the likely parents? | Pedigree or candidate-parent pool plus compatible SNP genotypes | [BIGpopA](../rpackages/bigpopa.qmd) or [Familia](../rpackages/familia.qmd) | Pedigree checks, parentage assignments, and related diagnostics |
+| What is the genomic ancestry or breed or line composition? | Target genotypes and, for supervised analysis, suitable reference populations | [BIGpopA](../rpackages/bigpopa.qmd) or [Familia](../rpackages/familia.qmd) | Supervised composition estimates or, in Familia, unsupervised ancestry inference |
+| Which candidates should contribute, and how should they be mated? | Candidate IDs, pedigree, required candidate metadata, and estimated breeding values | [AlloMate](../rpackages/allomate.qmd) | Kinship summaries, weighted selection information, contribution results, and mating plans |
 :::
 
 The two paired choices are mainly about how you want to work and which analysis is required:

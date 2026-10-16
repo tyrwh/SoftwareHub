@@ -14,7 +14,7 @@ title-block-banner: false
 Browse open-source tools for breeding data and genomics, then find the tutorials and workshop materials that support your work.
 
 ::: {.hero-actions}
-[Explore software](software.qmd){.btn-bi-primary}
+[Explore software](rpackages.qmd){.btn-bi-primary}
 [Start learning](learn.qmd){.btn-bi-secondary}
 :::
 :::
@@ -32,7 +32,7 @@ Choose a tool, follow a practical workflow, or return to material from a trainin
 
 Compare packages and applications by task, data type, language, and analysis area.
 
-[View all software](software.qmd){.card-link}
+[View all software](rpackages.qmd){.card-link}
 :::
 
 ::: {.path-card}
@@ -62,7 +62,7 @@ Compare packages and applications, then go directly to installation instructions
 
 ::: {.package-grid}
 ::: {.package-card}
-<img class="package-logo" src="assets/software-bigr.png" alt="BIGr logo">
+<img class="package-logo" src="assets/logos/software-bigr.png" alt="BIGr logo">
 
 ### BIGr
 
@@ -70,11 +70,11 @@ Core genomic analysis functions for diploid and polyploid breeding programs.
 
 <div class="meta-row"><span class="pill">R package</span><span class="pill">Genomics</span></div>
 
-[Explore BIGr](software/bigr.qmd){.card-link}
+[Explore BIGr](rpackages/bigr.qmd){.card-link}
 :::
 
 ::: {.package-card}
-<img class="package-logo" src="assets/software-bigapp.png" alt="BIGapp logo">
+<img class="package-logo" src="assets/logos/software-bigapp.png" alt="BIGapp logo">
 
 ### BIGapp
 
@@ -82,11 +82,11 @@ A user-friendly Shiny application for genomic analysis without requiring command
 
 <div class="meta-row"><span class="pill">R Shiny</span><span class="pill">GWAS + GS</span></div>
 
-[Explore BIGapp](software/bigapp.qmd){.card-link}
+[Explore BIGapp](rpackages/bigapp.qmd){.card-link}
 :::
 
 ::: {.package-card}
-<img class="package-logo" src="assets/software-qploidy2.png" alt="Qploidy2 logo">
+<img class="package-logo" src="assets/logos/software-qploidy2.png" alt="Qploidy2 logo">
 
 ### Qploidy2
 
@@ -94,7 +94,7 @@ Ploidy, aneuploidy, and large-scale copy-number estimation from genotyping data.
 
 <div class="meta-row"><span class="pill">R package</span><span class="pill">Ploidy + CNV</span></div>
 
-[Explore Qploidy2](software/qploidy2.qmd){.card-link}
+[Explore Qploidy2](rpackages/qploidy2.qmd){.card-link}
 :::
 :::
 

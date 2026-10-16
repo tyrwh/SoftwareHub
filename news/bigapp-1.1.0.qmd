@@ -3,7 +3,7 @@ title: "BIGapp 1.1.0"
 date: 2025-02-21
 description: "This includes many feature updates - including:"
 categories: [BIGapp]
-image: ../assets/software-bigapp.png
+image: ../assets/logos/software-bigapp.png
 image-alt: "BIGapp logo"
 toc: false
 ---
@@ -17,4 +17,4 @@ This includes many feature updates - including:
 
 This version will require R 4.4.0
 
-[Release on GitHub](https://github.com/Breeding-Insight/BIGapp/releases/tag/v1.1.0) · [About BIGapp](../software/bigapp.qmd)
+[Release on GitHub](https://github.com/Breeding-Insight/BIGapp/releases/tag/v1.1.0) · [About BIGapp](../rpackages/bigapp.qmd)

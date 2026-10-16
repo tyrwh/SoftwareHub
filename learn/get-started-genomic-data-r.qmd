@@ -483,5 +483,5 @@ Continue with the path that matches your goal:
 
 - [What is allele dosage?](what-is-allele-dosage.qmd) explains dosage in diploids and polyploids.
 - [Estimate copy number in alfalfa with Qploidy2](https://breeding-insight.github.io/Qploidy2/Qploidy_alfalfa_tutorial.html) points polyploid learners to the Qploidy2 workflow.
-- [Explore Qploidy2](../software/qploidy2.qmd) describes tools for ploidy, aneuploidy, and copy-number estimation.
+- [Explore Qploidy2](../rpackages/qploidy2.qmd) describes tools for ploidy, aneuploidy, and copy-number estimation.
 - [Process MADC genotype data](madc-to-vcf.qmd) continues into BIGr data preparation and VCF generation.
